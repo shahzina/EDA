@@ -46,29 +46,7 @@ Response:
 The bin for the first day of the month is unusually large. It should have been similar to the rest of the days except for 31st because not all months have a 31st day. 
 ***
 
-### Moira's Investigation
-Notes:
 
-***
-
-### Estimating Your Audience Size
-Notes:
-
-***
-
-#### Think about a time when you posted a specific message or shared a photo on Facebook. What was it?
-Response:
-
-#### How many of your friends do you think saw that post?
-Response:
-
-#### Think about what percent of your friends on Facebook see any posts or comments that you make in a month. What percent do you think that is?
-Response:
-
-***
-
-### Perceived Audience Size
-Notes:
 
 ***
 ### Faceting
