@@ -1,0 +1,39 @@
+---
+title: "Lesson4.EDA"
+output: html_document
+---
+
+## EXPLORATORY DATA ANALYSIS WITH ONE VARIABLE: PROBLEM
+
+```{r} 
+#READ IN DATA
+getwd()
+setwd('~/Documents')
+
+pf <- read.csv('diamondsbig.csv', sep = ',')
+```
+#import libraries
+
+```{r}
+install.packages('ggplot2')
+library(ggplot2)
+```
+
+# Create a histogram of the price of all the diamonds in the diamond data set.
+```{r}
+names(pf)
+qplot(x= price, data = pf)
+```
+
+# describe shape and center of price distribution
+```{r}
+summary(pf$price)
+```
+
+*** 
+### question 3
+
+```{r}
+di500 = length(pf$price < 500)
+di500
+```
